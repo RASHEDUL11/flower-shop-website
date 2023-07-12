@@ -1,0 +1,44 @@
+/* common shared styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header related styles */
+.header{
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner{
+    padding: 197px 997px 365px 240px;
+    display: flex;
+    align-items: center;
+}
+.btn-primary{
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    gap: 10px;
+}
+.text-p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    display: flex;
+    width: 634px;
+    font-style: normal;
+    font-weight: 400;
+}
+.banner-tittle{
+    display: flex;
+    width: 708px;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: Lato;
+    font-style: normal;
+}
+.banner .flower-pic{
+    width: 635px;
+    height: 800px;
+}
