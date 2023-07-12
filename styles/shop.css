@@ -5,11 +5,16 @@ body{
 /* header related styles */
 .header{
     background: rgba(229, 84, 115, 0.10);
+   
 }
 .banner{
-    padding: 197px 997px 365px 240px;
     display: flex;
     align-items: center;
+    padding:197px 972px 0px 240px ;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 1920px;
 }
 .btn-primary{
     padding: 20px 43px;
@@ -28,6 +33,7 @@ body{
     width: 634px;
     font-style: normal;
     font-weight: 400;
+    margin-top:32px;
 }
 .banner-tittle{
     display: flex;
@@ -37,8 +43,115 @@ body{
     font-weight: 800;
     font-family: Lato;
     font-style: normal;
+    margin-bottom: 32px;
+    
 }
 .banner .flower-pic{
     width: 635px;
     height: 800px;
+    padding: 50px 240px 0px 97px;
+}
+/* main section styles */
+main{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+.about{
+    padding: 130px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 130px 0;
+}
+.section-tittle{
+    font-size: 40px;
+    color: #272727;
+    font-family: Lato;
+    justify-content: center;
+}
+.section-description{
+    display: flex;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+}
+#what-i-do{
+    padding: 30px 150px;
+}
+.flower-container{
+    display: flex;
+    gap: 30px;
+    margin: 48px 0px;
+    justify-content: space-between;
+}
+.flower{
+    padding: 110px 78px 0px 97px;
+    
+    
+}
+#p1{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+#hh{
+    width: 310px;
+    height: 428px;
+    background: url lightgray 50% / cover no-repeat;
+
+}
+#p2{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+#p3{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.flower-tittle{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+#lo{
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 28px 240px;
+    display: flex;
+    
+   
+}
+.bm{
+    padding:86px 50px 20px 300px ;
+}
+.dm{
+    padding: 86px 200px 20px 200px;
+}
+.cm{
+    padding: 86px 200px 20px 250px;
+}
+.my{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    display: flex;
+    margin-left: 175px;
 }
