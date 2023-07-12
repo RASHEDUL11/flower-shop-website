@@ -230,3 +230,43 @@ main{
     padding: 10px 400px;
     background:#FFF ;
 }
+footer{
+    display: flex;
+    background: #111010;
+    padding: 190px 500px;
+    
+}
+.eram{
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+.aa{
+    color: #E55473;
+
+}
+.bb{
+    color: #FFFFFF;
+}
+.sami{
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.90);
+}
+.abir{
+    
+color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal
+}
