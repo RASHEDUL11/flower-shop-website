@@ -155,3 +155,78 @@ main{
     display: flex;
     margin-left: 175px;
 }
+.header-3{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+   
+}
+.banner-3{
+    display: flex;
+    align-items: center;
+    padding:197px 972px 0px 240px ;
+    justify-content: space-between;
+
+}
+.mal{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.s{
+    color: #E55473;
+}
+.banner-3 .flower-pic{
+    width: 318px;
+    height: 420px;
+    padding: 50px 240px 0px 97px;
+
+}
+.banner-content-3{
+    max-width: 1922px;
+}
+.section-tittle-4{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.section-description-4{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+#what-me{
+    padding: 30px 150px;
+}
+.flower-to{
+    display: flex;
+    gap: 30px;
+    margin: 48px 0px;
+    justify-content: space-between;
+}
+.tumi{
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    margin-left: 200px;
+}
+#oo{
+   margin-left: 1000px;
+}
+#hi{
+    padding: 10px 400px;
+    background:#FFF ;
+}
